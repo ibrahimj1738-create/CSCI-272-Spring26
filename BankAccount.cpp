@@ -1,9 +1,9 @@
 /*
-Name: Your Name
+Name: Ibrahim Jahangir 
 Course: CSCI 272
 Lesson Number: Lesson 4
 Code Topic: Encapsulation with Deposit and Withdraw
-Date: 02/15/2026
+Date: 03/04/2026
 */
 
 #include <iostream>
