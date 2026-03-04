@@ -1,10 +1,10 @@
-//
+/*
 Name: Ibrahim Jahangir
 Course: CSCI 272
 Lesson Number: Lesson 4
 Code Topic: Class with Conditional Statements
 Date: 03/04/2026
-//
+*/
 
 #include <iostream>
 using namespace std;
@@ -65,4 +65,4 @@ to connect it to the int main
 Functions inside a class can use conditional logic.
  Objects store their own data.
  Public variables are easy to access but not always safe.
-//
+*/
