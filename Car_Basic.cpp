@@ -1,10 +1,10 @@
-//
+/*
 Name: Ibrahim Jahangir
 Course: CSCI 272
 Lesson Number: Lesson 4
 Code Topic: Basic Class Example
 Date: 03/04/2026
-//
+*/
 
 #include <iostream>
 using namespace std;
@@ -41,7 +41,7 @@ int main() {
     return 0;
 }
 
-//
+/*
 Reflection:
 
 1. What I understood:
@@ -73,3 +73,4 @@ Classes organize data and functions together.
 Private variables protect the data.
 I realize the complexity of an atm  object and call its functions.
 This example helped me understand the basic structure of OOP.
+*/
