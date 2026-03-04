@@ -1,9 +1,9 @@
 /*
-Name: Ibrahim Jahangir 
+Name: Your Name
 Course: CSCI 272
 Lesson Number: Lesson 4
-Code Topic: Encapsulation with Deposit and Withdraw
-Date: 03/04/2026
+Code Topic: Encapsulation Example
+Date: 02/15/2026
 */
 
 #include <iostream>
@@ -41,23 +41,33 @@ int main() {
     acc.deposit(500);
     acc.withdraw(200);
     acc.showBalance();
+
     return 0;
 }
 
 /*
 Reflection:
 
-This example helped me understand controlled access to private data.
-The balance variable cannot be changed directly from main().
-Only deposit and withdraw functions can modify it.
+1. What I understood:
+This example helped me understand encapsulation.
+The balance variable is private, so it cannot be changed directly from main().
+The deposit and withdraw functions control how balance changes.
+This protects the data from being modified incorrectly.
 
-At first, I forgot to initialize balance,
-and I got incorrect output.
-After fixing it, the program worked correctly.
+2. Difficulties:
+I forgot to initialize balance at first and got random values.
+I learned that variables must be initialized.
 
-I reviewed examples online and asked ChatGPT to explain
-why private variables improve security in programs.
+3. Research:
+I reviewed how private variables work.
+I also searched how to compare double values properly.
 
-From this assignment, I learned how encapsulation protects data
-and how public functions provide controlled access.
+4. AI Usage:
+I used ChatGPT to review my code and make sure it compiles.
+
+5. What I learned:
+I learned why encapsulation is important.
+I learned that private variables increase security.
+I learned that public functions act as a safe way to access data.
+This example helped me understand access specifiers better.
 */
