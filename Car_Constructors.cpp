@@ -1,10 +1,10 @@
-//
+/*
 Name: Ibrahim Jahangir 
 Course: CSCI 272
 Lesson Number: Lesson 4
 Code Topic: Constructors Example
 Date: 03/05/2026
-//
+*/
 
 #include <iostream>
 using namespace std;
@@ -80,4 +80,4 @@ w object initialization works.
 Constructors automatically run when an object is created.
  Copy constructors copy the data from another object.
 object creation better.
-/*
+*/
