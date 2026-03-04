@@ -2,74 +2,67 @@
 Name: Ibrahim Jahangir
 Course: CSCI 272
 Lesson Number: Lesson 4
-Code Topic: Basic Class Example
+Code Topic: Class with Conditional Statements
 Date: 03/04/2026
 //
 
 #include <iostream>
 using namespace std;
 
-class Car {
-private:
-    string brand;
-    string model;
-    int year;
-
+class Person {
 public:
-    void setInfo() {
-        brand = "Volkswagen";
-        model = "Polo";
-        year = 2012;
-    }
+    string name;
+    int age;
+    char gender;
 
-    void startEngine() {
-        cout << "Engine started." << endl;
-    }
+    void introduce() {
+        cout << "Hello, my name is " << name << "." << endl;
+        cout << "I am " << age << " years old." << endl;
 
-    void displayInfo() {
-        cout << "Brand: " << brand << endl;
-        cout << "Model: " << model << endl;
-        cout << "Year: " << year << endl;
+        if (gender == 'M') {
+            cout << "I am male." << endl;
+        }
+        else if (gender == 'F') {
+            cout << "I am female." << endl;
+        }
+        else {
+            cout << "Gender not specified." << endl;
+        }
     }
 };
 
 int main() {
-    Car car1;
-    car1.setInfo();
-    car1.displayInfo();
-    car1.startEngine();
+    Person p1;
+    p1.name = "Maksi";
+    p1.age = 29;
+    p1.gender = 'M';
+
+    p1.introduce();
     return 0;
 }
 
-//
+/*
 Reflection:
 
 1. What I understood:
-My main takeaways are the private variables (brand, model, year), which store the data.
-Private means they cannot be accessed directly from main().
-The public functions (setInfo, displayInfo, startEngine) allow us to work with the private data.
-
+ A class can contain variables and functions.
+The introduce() function uses if statements to check gender.
+ variables are public, you can change them directly in main().
 
 2. Difficulties:
-At first, I forgot to include <string>, and I got an error.
-I also forgot that you can't access the brand on the code because it is private 
-because this makes it now clear the difference between public and private 
+I accidentally used double quotes for 'M' and got an error.
+I learned that char values must use single quotes.
 
 3. Research:
-I searched online about private vs public in C++. it said 
-PartMeaning
-class Car=creating blueprint
-private=hidden data
-brand/model/year=car properties
-public=accessible functions
-startEngine()=car action
-I also checked how to properly print variables using cout.
+ If and else statements work in C++.
+ difference between char and string.
 
 4. AI Usage:
-I used ChatGPT to check if my syntax was correct and to explain encapsulation in simple terms.
+to write the public function 
+to connect it to the int main
 
 5. What I learned:
-Classes organize data and functions together.
-Private variables protect the data.
-I realize the complexity of an atm  object and call its functions.
-This example helped me understand the basic structure of OOP.
+Functions inside a class can use conditional logic.
+ Objects store their own data.
+ Public variables are easy to access but not always safe.
+//
