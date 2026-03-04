@@ -1,10 +1,10 @@
-/*
-Name: Your Name
+//
+Name: Ibrahim Jahangir 
 Course: CSCI 272
 Lesson Number: Lesson 4
 Code Topic: Constructors Example
-Date: 02/15/2026
-*/
+Date: 03/05/2026
+//
 
 #include <iostream>
 using namespace std;
@@ -56,28 +56,28 @@ int main() {
 
 /*
 Reflection:
-
 1. What I understood:
-This example helped me understand constructors.
-The default constructor runs when no values are provided.
+ constructors.
+The constructor runs when no values are provided.
 The parameterized constructor allows us to pass values when creating the object.
 The copy constructor makes a new object using another object.
-I learned that constructors have the same name as the class and no return type.
+Constructors have the same name as the class and no return type.
 
 2. Difficulties:
-I was confused at first about when the copy constructor runs.
-I also forgot that constructors do not have a return type.
+ confused  about when the copy constructor runs.
+Constructors do not have a return type.
 
 3. Research:
-I searched online about the difference between default and parameterized constructors.
+The difference between default and parameterized constructors.
 I also looked up examples of copy constructors.
 
 4. AI Usage:
-I used ChatGPT to explain when each constructor is called.
+to explain when each constructor is called
+to also display when copy constructor and parameterized constructor are called 
 
 5. What I learned:
-I learned how object initialization works.
-I learned that constructors automatically run when an object is created.
-I learned that copy constructors copy the data from another object.
-This helped me understand object creation better.
-*/
+w object initialization works.
+Constructors automatically run when an object is created.
+ Copy constructors copy the data from another object.
+object creation better.
+/*
